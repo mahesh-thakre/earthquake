@@ -15,6 +15,14 @@
 		63DD39351A89879D00C1B628 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DD39341A89879D00C1B628 /* Images.xcassets */; };
 		63DD39381A89879D00C1B628 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DD39361A89879D00C1B628 /* LaunchScreen.xib */; };
 		63DD39441A89879D00C1B628 /* EarthquakeMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD39431A89879D00C1B628 /* EarthquakeMonitorTests.m */; };
+		63DD39501A89882200C1B628 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD394E1A89882200C1B628 /* CustomCell.m */; };
+		63DD39511A89882200C1B628 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DD394F1A89882200C1B628 /* CustomCell.xib */; };
+		63DD39541A89965600C1B628 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD39531A89965600C1B628 /* Info.m */; };
+		63DD39561A89ADAC00C1B628 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DD39551A89ADAC00C1B628 /* MapKit.framework */; };
+		63DD39591A89B72600C1B628 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD39581A89B72600C1B628 /* DetailViewController.m */; };
+		63DD395C1A8A566800C1B628 /* GlobalMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD395B1A8A566800C1B628 /* GlobalMethods.m */; };
+		63DD395F1A8A62E500C1B628 /* ZSPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD395E1A8A62E500C1B628 /* ZSPinAnnotation.m */; };
+		63DD39621A8A633100C1B628 /* ZSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD39611A8A633100C1B628 /* ZSAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,20 @@
 		63DD393D1A89879D00C1B628 /* EarthquakeMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakeMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DD39421A89879D00C1B628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DD39431A89879D00C1B628 /* EarthquakeMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthquakeMonitorTests.m; sourceTree = "<group>"; };
+		63DD394D1A89882200C1B628 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		63DD394E1A89882200C1B628 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		63DD394F1A89882200C1B628 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		63DD39521A89965600C1B628 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		63DD39531A89965600C1B628 /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		63DD39551A89ADAC00C1B628 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		63DD39571A89B72600C1B628 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		63DD39581A89B72600C1B628 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		63DD395A1A8A566800C1B628 /* GlobalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalMethods.h; sourceTree = "<group>"; };
+		63DD395B1A8A566800C1B628 /* GlobalMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalMethods.m; sourceTree = "<group>"; };
+		63DD395D1A8A62E500C1B628 /* ZSPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSPinAnnotation.h; sourceTree = "<group>"; };
+		63DD395E1A8A62E500C1B628 /* ZSPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSPinAnnotation.m; sourceTree = "<group>"; };
+		63DD39601A8A633100C1B628 /* ZSAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAnnotation.h; sourceTree = "<group>"; };
+		63DD39611A8A633100C1B628 /* ZSAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DD39561A89ADAC00C1B628 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 		63DD39181A89879D00C1B628 = {
 			isa = PBXGroup;
 			children = (
+				63DD39551A89ADAC00C1B628 /* MapKit.framework */,
 				63DD39231A89879D00C1B628 /* EarthquakeMonitor */,
 				63DD39401A89879D00C1B628 /* EarthquakeMonitorTests */,
 				63DD39221A89879D00C1B628 /* Products */,
@@ -83,14 +107,16 @@
 		63DD39231A89879D00C1B628 /* EarthquakeMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				63DD39281A89879D00C1B628 /* AppDelegate.h */,
-				63DD39291A89879D00C1B628 /* AppDelegate.m */,
-				63DD392E1A89879D00C1B628 /* ViewController.h */,
-				63DD392F1A89879D00C1B628 /* ViewController.m */,
+				63DD39691A8A6A3E00C1B628 /* Global Methods */,
+				63DD39681A8A6A1600C1B628 /* EQ Information Managed Object */,
+				63DD39671A8A6A0500C1B628 /* Custom Tableview Cell */,
+				63DD39661A8A69F400C1B628 /* ZSAnnotation Addin */,
+				63DD39651A8A69E400C1B628 /* Detail View Controller */,
+				63DD39641A8A69D300C1B628 /* App Delegate */,
+				63DD39631A8A69C500C1B628 /* Main View Controller */,
 				63DD39311A89879D00C1B628 /* Main.storyboard */,
 				63DD39341A89879D00C1B628 /* Images.xcassets */,
 				63DD39361A89879D00C1B628 /* LaunchScreen.xib */,
-				63DD392B1A89879D00C1B628 /* EarthquakeMonitor.xcdatamodeld */,
 				63DD39241A89879D00C1B628 /* Supporting Files */,
 			);
 			path = EarthquakeMonitor;
@@ -120,6 +146,73 @@
 				63DD39421A89879D00C1B628 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63DD39631A8A69C500C1B628 /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63DD392E1A89879D00C1B628 /* ViewController.h */,
+				63DD392F1A89879D00C1B628 /* ViewController.m */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		63DD39641A8A69D300C1B628 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				63DD39281A89879D00C1B628 /* AppDelegate.h */,
+				63DD39291A89879D00C1B628 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		63DD39651A8A69E400C1B628 /* Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63DD39571A89B72600C1B628 /* DetailViewController.h */,
+				63DD39581A89B72600C1B628 /* DetailViewController.m */,
+			);
+			name = "Detail View Controller";
+			sourceTree = "<group>";
+		};
+		63DD39661A8A69F400C1B628 /* ZSAnnotation Addin */ = {
+			isa = PBXGroup;
+			children = (
+				63DD395D1A8A62E500C1B628 /* ZSPinAnnotation.h */,
+				63DD395E1A8A62E500C1B628 /* ZSPinAnnotation.m */,
+				63DD39601A8A633100C1B628 /* ZSAnnotation.h */,
+				63DD39611A8A633100C1B628 /* ZSAnnotation.m */,
+			);
+			name = "ZSAnnotation Addin";
+			sourceTree = "<group>";
+		};
+		63DD39671A8A6A0500C1B628 /* Custom Tableview Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63DD394D1A89882200C1B628 /* CustomCell.h */,
+				63DD394E1A89882200C1B628 /* CustomCell.m */,
+				63DD394F1A89882200C1B628 /* CustomCell.xib */,
+			);
+			name = "Custom Tableview Cell";
+			sourceTree = "<group>";
+		};
+		63DD39681A8A6A1600C1B628 /* EQ Information Managed Object */ = {
+			isa = PBXGroup;
+			children = (
+				63DD392B1A89879D00C1B628 /* EarthquakeMonitor.xcdatamodeld */,
+				63DD39521A89965600C1B628 /* Info.h */,
+				63DD39531A89965600C1B628 /* Info.m */,
+			);
+			name = "EQ Information Managed Object";
+			sourceTree = "<group>";
+		};
+		63DD39691A8A6A3E00C1B628 /* Global Methods */ = {
+			isa = PBXGroup;
+			children = (
+				63DD395A1A8A566800C1B628 /* GlobalMethods.h */,
+				63DD395B1A8A566800C1B628 /* GlobalMethods.m */,
+			);
+			name = "Global Methods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +264,7 @@
 				TargetAttributes = {
 					63DD39201A89879D00C1B628 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = F2Q4Z9J6V2;
 					};
 					63DD393C1A89879D00C1B628 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -204,6 +298,7 @@
 			files = (
 				63DD39331A89879D00C1B628 /* Main.storyboard in Resources */,
 				63DD39381A89879D00C1B628 /* LaunchScreen.xib in Resources */,
+				63DD39511A89882200C1B628 /* CustomCell.xib in Resources */,
 				63DD39351A89879D00C1B628 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +321,12 @@
 				63DD39271A89879D00C1B628 /* main.m in Sources */,
 				63DD39301A89879D00C1B628 /* ViewController.m in Sources */,
 				63DD392D1A89879D00C1B628 /* EarthquakeMonitor.xcdatamodeld in Sources */,
+				63DD39501A89882200C1B628 /* CustomCell.m in Sources */,
+				63DD39541A89965600C1B628 /* Info.m in Sources */,
+				63DD395F1A8A62E500C1B628 /* ZSPinAnnotation.m in Sources */,
+				63DD39591A89B72600C1B628 /* DetailViewController.m in Sources */,
+				63DD395C1A8A566800C1B628 /* GlobalMethods.m in Sources */,
+				63DD39621A8A633100C1B628 /* ZSAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
